@@ -11578,7 +11578,7 @@ pre .code {
   margin-bottom: 40px;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 374) {
   .header {
     height: 500px;
     min-height: 500px;
