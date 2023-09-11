@@ -11627,11 +11627,14 @@ pre .code {
 }
 
 .section {
-  padding-top: 8px ;
-  background-color: #fff ;
+  padding-top: 8px;
+  background-color: #fff;
 }
-.section-part1{
-  background-color: #0c4e3c;
+.section-part1 {
+  background-image: linear-gradient(#0c274e96, #09440069),
+    url(/assets/imgs/resume-bg.avif);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 .section.bg-custom-gray {
@@ -11718,4 +11721,53 @@ pre .code {
 .resumecolor{
   color: #fff ;
 
+}
+.scoller{
+  scrollbar-width: none; /* Firefox */
+  -webkit-scrollbar-width: none; /* Webkit (Chrome, Safari) */
+}
+
+.card-body::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for webkit-based browsers */
+
+}
+
+.resumecolor {
+  color: #fff;
+}
+
+.color-change-button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  animation: colorChange 3s infinite;
+
+}
+
+@keyframes colorChange {
+  0% {
+    background-color: #93b1a6;
+  }
+
+  50% {
+    background-color: #5c8374;
+  }
+
+  100% {
+    background-color: #93b1a6;
+  }
+}
+div::-webkit-scrollbar {
+  width: 6px;
+}
+
+div::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+div::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 3px;
 }
