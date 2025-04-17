@@ -12754,7 +12754,7 @@ pre .code {
 
 .section-part1 {
   background-image: linear-gradient(#0c274e96, #09440069),
-    url(/assets/imgs/resume-bg.jpg);
+    url('/assets/imgs/resume-bg.jpg');
   background-attachment: fixed;
   background-size: cover;
 }
